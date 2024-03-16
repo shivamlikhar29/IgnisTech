@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 
 const Navbar = () => {
-    const [user, setUser] = useState(false);
+    const [user, setUser] = useState(true);
 
     return (
       <div className='pt-3'>
@@ -23,7 +23,7 @@ const Navbar = () => {
             { user ?
             <><li>
                 <img className='rounded-full w-6 h-6 min-h-6 min-w-6 ' src='https://static.vecteezy.com/system/resources/previews/002/002/403/large_2x/man-with-beard-avatar-character-isolated-icon-free-vector.jpg'></img>
-              </li><li className='px-1 pr-12 text-secondary-700'>xxx@gmail.com</li></>
+              </li><li className='px-1 pr-12 text-secondary-700'>shivamlikhar29@gmail.com</li></>
             : <> <li className='px-7 text-secondary-700 cursor-pointer'>Log In</li>
             <li className='px-7 text-secondary-700 cursor-pointer'>Sign Up</li></> }
           </ul>
